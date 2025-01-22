@@ -1,0 +1,123 @@
+body{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    background: url(/imgs/litteBitCloudy.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 1000px;
+    color: rgb(254, 255, 255);
+}
+
+.logo{
+    width: 80px;
+}
+.searchBtn{
+    width: 40px;
+    background: none;
+    border: none;
+    color: inherit;
+    font: inherit
+}
+#searchBtn{
+    width: 40px;
+    cursor: pointer;
+}
+header{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    background-color: rgba(215, 219, 230, 40%);
+    backdrop-filter:blur(8px);
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-shadow: 0px 15px 20px rgba(44, 44, 44, 0.493);
+
+}
+.myNav{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+#searchInput{
+    border-radius: 18px;
+    border: none;
+    height: 40px;
+}
+#topElement{
+    background-color: rgba(215, 219, 230, 40%);
+    backdrop-filter:blur(8px);
+    box-shadow: 0px 15px 20px rgba(44, 44, 44, 0.493);
+    width: 1000px;
+    border-radius: 50px;
+    height: 450px;
+
+}
+#mySection{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+#myDiv{
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+}
+#humidity{
+    width: 40px;
+    height: 50px;
+}
+#mySpan{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.myh3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight:bold;
+}
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    font-size:50px;
+}
+#animatedimg{
+    width: 100px;
+    margin-top: 10px;
+}
+.mypara{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:40px
+}
+.degre{
+    margin-top: 57px;
+}
+.air{
+    width: 50px;
+    height: 50px;
+}
+.spantoo{
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    align-items: center;
+}
+.div2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:10px;
+}
+.paratoo{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+}
+.divtoo{
+    display: flex;
+    align-items: center;
+}
+.city{
+    font-size: 500%;
+}

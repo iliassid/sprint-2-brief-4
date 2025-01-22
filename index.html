@@ -4,8 +4,47 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="/style.css">
 </head>
 <body>
-    
+    <header>
+        <img src="/imgs/logo.png" alt="" class="logo">
+        <nav class="myNav">
+            <input type="text" id="searchInput" placeholder="anter a city">
+            <button class="searchBtn"><img src="/imgs/search.png" alt="search" id="searchBtn" ></button>
+        </nav>
+    </header>
+<section id="mySection">
+    <div id="topElement">
+        <h1 class="city"></h1>
+    <div id="myDiv">
+        <div class="divToo">
+            <h3 class="myh3">Condition</h3>
+            <img id="animatedimg" src="/imgs/day.svg" alt="">
+        </div>
+        <div class="divToo">
+            <h3 class="myh3">Temperature</h3>
+            <p class="mypara degre temp"></p>
+        </div>
+        <div class="divToo">
+            <h3 class="myh3 ">Humidite</h3>
+            <span id="mySpan">
+            <p class="mypara humidity"></p>
+            <img id="humidity" src="/imgs/humidity 1.png" alt="">
+            </span>
+        </div>
+        <div class="divToo div2">
+            <p class="myh3">Wind</p>
+            <span class="spantoo">
+            <p class="paratoo Wind"></p>
+            <img class="air" src="/imgs/air.png" alt="">
+            </span>
+        </div>
+    </div>
+    </div>
+</section>
+<img src="/imgs/icons8-wind.gif" alt="">
+
+    <script src="/script.js"></script>
 </body>
 </html>
